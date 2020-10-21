@@ -13,12 +13,12 @@
  
  Linux users:
 
- `go build -o goploit main.go && mv goploit /usr/bin`
+ `go build -o goploit main.go && chmod +x goploit && sudo cp goploit /usr/bin`
 
 ## How to use
- For you to use Goploit is very simple, just run it by passing an argument with the name of the exploit you want or just run it will ask you what the name of the exploit or framework you want.
+ For you to use Goploit is very simple! Enough you pass the `--name` parameter that will serve to inform you the name of the exploit/failure, or the framework. And for more commands just type the parameter `-h`.
 
- `./goploit [Framework Name]`
+ `./goploit --name [Framework Name]`
 
  ![Screenshot](/screenshot/screenshot.png)
 
